@@ -1,6 +1,3 @@
-# In[1]:
-
-
 from bidict import bidict
 
 def num2bin(num_str, bits):
