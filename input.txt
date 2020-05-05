@@ -1,0 +1,17 @@
+addi $s0, $zero, 21                
+addi $s1, $zero, 23                 
+sw $s0, 4($s1)                      
+sub $s2, $s0, $s1                   
+addi $s1, $zero, -2                 
+beq $s1, $s2, LABEL1               
+LABEL2:
+addi $s1, $zero, 23                 
+lw $s0, 4($s1)                      
+j EXIT                              
+LABEL1:
+and $s4, $s1, $s2                   
+or $t0, $s4, $s0                    
+slt $s4, $s1, $s2                   
+add $t1, $s4, $t0                   
+j LABEL2                            
+EXIT:
