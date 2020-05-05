@@ -1,4 +1,5 @@
 # MIPs_parser
+* convert MIPs Instruction into machine code 
 * Need to `new line after Label` in the MIPs instruction input file
 * Make sure you have installed the `bidict` package
 
