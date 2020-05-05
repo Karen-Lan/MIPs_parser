@@ -6,3 +6,5 @@
 2. Execute MIPS_parse.py
 3. Input the MIPs instruction file name (by default: input.txt)
 4. Output file name: output.txt
+
+[demo link](https://www.youtube.com/watch?v=iaD55Z5PMYA)
